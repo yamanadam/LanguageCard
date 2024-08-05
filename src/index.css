@@ -7,7 +7,19 @@
 body {
   background-color: #f4d467 !important;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* height: 100vh; */
+}
 
-  height: 100vh;
-  border: 2px solid red;
+/* For Card Style */
+
+.lang-card:hover {
+  box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.lang-card:hover .img-card {
+  transform: scale(1.2);
+}
+
+.img-card {
+  transition: all 0.9s ease-in-out;
 }
