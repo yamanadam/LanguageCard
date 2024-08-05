@@ -8,7 +8,7 @@ import { data } from "../helpers/data";
 const Card = () => {
   return (
     <Container
-      className="rounded-4 mt-4 p-2"
+      className="rounded-4 mt-4 p-4"
       style={{ backgroundColor: "#f48b29" }}
     >
       <h1 className="text-white my-2">Languages</h1>
