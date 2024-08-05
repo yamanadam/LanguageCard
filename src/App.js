@@ -1,8 +1,13 @@
+import Card from "./components/Card";
+import Header from "./components/Header";
+import Container from "react-bootstrap/Container";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Adem</h1>
-    </div>
+    <Container className="text-center mt-4" style={{ paddingBottom: "60px" }}>
+      <Header />
+      <Card />
+    </Container>
   );
 }
 
